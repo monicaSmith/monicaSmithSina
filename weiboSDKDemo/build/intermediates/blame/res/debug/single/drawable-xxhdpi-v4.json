@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/home/monica/studio-project/monicaSmithSina/weiboSDKDemo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_com_sina_weibo_sdk_login_with_account_text_normal.png",
+        "source": "/home/monica/studio-project/monicaSmithSina/weiboSDKDemo/build/intermediates/exploded-aar/monicaSmithSina/weiboSDK/unspecified/res/drawable-xxhdpi-v4/ic_com_sina_weibo_sdk_login_with_account_text_normal.png"
+    },
+    {
+        "merged": "/home/monica/studio-project/monicaSmithSina/weiboSDKDemo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_com_sina_weibo_sdk_login_with_account_text_focused.png",
+        "source": "/home/monica/studio-project/monicaSmithSina/weiboSDKDemo/build/intermediates/exploded-aar/monicaSmithSina/weiboSDK/unspecified/res/drawable-xxhdpi-v4/ic_com_sina_weibo_sdk_login_with_account_text_focused.png"
+    },
+    {
+        "merged": "/home/monica/studio-project/monicaSmithSina/weiboSDKDemo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_com_sina_weibo_sdk_login_button_with_frame_logo_pressed.png",
+        "source": "/home/monica/studio-project/monicaSmithSina/weiboSDKDemo/build/intermediates/exploded-aar/monicaSmithSina/weiboSDK/unspecified/res/drawable-xxhdpi-v4/ic_com_sina_weibo_sdk_login_button_with_frame_logo_pressed.png"
+    },
+    {
+        "merged": "/home/monica/studio-project/monicaSina/monicaSmithSina/weiboSDKDemo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_com_sina_weibo_sdk_login_button_with_frame_logo_pressed.png",
+        "source": "/home/monica/studio-project/monicaSina/monicaSmithSina/weiboSDKDemo/build/intermediates/exploded-aar/monicaSmithSina/weiboSDK/unspecified/res/drawable-xxhdpi-v4/ic_com_sina_weibo_sdk_login_button_with_frame_logo_pressed.png"
+    },
+    {
+        "merged": "/home/monica/studio-project/monicaSina/monicaSmithSina/weiboSDKDemo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_com_sina_weibo_sdk_login_button_with_frame_logo_normal.png",
+        "source": "/home/monica/studio-project/monicaSina/monicaSmithSina/weiboSDKDemo/build/intermediates/exploded-aar/monicaSmithSina/weiboSDK/unspecified/res/drawable-xxhdpi-v4/ic_com_sina_weibo_sdk_login_button_with_frame_logo_normal.png"
+    },
+    {
+        "merged": "/home/monica/studio-project/monicaSina/monicaSmithSina/weiboSDKDemo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_com_sina_weibo_sdk_login_with_account_text_normal.png",
+        "source": "/home/monica/studio-project/monicaSina/monicaSmithSina/weiboSDKDemo/build/intermediates/exploded-aar/monicaSmithSina/weiboSDK/unspecified/res/drawable-xxhdpi-v4/ic_com_sina_weibo_sdk_login_with_account_text_normal.png"
+    },
+    {
+        "merged": "/home/monica/studio-project/monicaSina/monicaSmithSina/weiboSDKDemo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_com_sina_weibo_sdk_login_button_with_frame_logo_focused.png",
+        "source": "/home/monica/studio-project/monicaSina/monicaSmithSina/weiboSDKDemo/build/intermediates/exploded-aar/monicaSmithSina/weiboSDK/unspecified/res/drawable-xxhdpi-v4/ic_com_sina_weibo_sdk_login_button_with_frame_logo_focused.png"
+    },
+    {
+        "merged": "/home/monica/studio-project/monicaSmithSina/weiboSDKDemo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_com_sina_weibo_sdk_login_with_account_text_pressed.png",
+        "source": "/home/monica/studio-project/monicaSmithSina/weiboSDKDemo/build/intermediates/exploded-aar/monicaSmithSina/weiboSDK/unspecified/res/drawable-xxhdpi-v4/ic_com_sina_weibo_sdk_login_with_account_text_pressed.png"
+    },
+    {
+        "merged": "/home/monica/studio-project/monicaSmithSina/weiboSDKDemo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_com_sina_weibo_sdk_login_button_with_frame_logo_focused.png",
+        "source": "/home/monica/studio-project/monicaSmithSina/weiboSDKDemo/build/intermediates/exploded-aar/monicaSmithSina/weiboSDK/unspecified/res/drawable-xxhdpi-v4/ic_com_sina_weibo_sdk_login_button_with_frame_logo_focused.png"
+    },
+    {
+        "merged": "/home/monica/studio-project/monicaSina/monicaSmithSina/weiboSDKDemo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_com_sina_weibo_sdk_login_with_account_text_pressed.png",
+        "source": "/home/monica/studio-project/monicaSina/monicaSmithSina/weiboSDKDemo/build/intermediates/exploded-aar/monicaSmithSina/weiboSDK/unspecified/res/drawable-xxhdpi-v4/ic_com_sina_weibo_sdk_login_with_account_text_pressed.png"
+    },
+    {
+        "merged": "/home/monica/studio-project/monicaSina/monicaSmithSina/weiboSDKDemo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_com_sina_weibo_sdk_login_with_account_text_focused.png",
+        "source": "/home/monica/studio-project/monicaSina/monicaSmithSina/weiboSDKDemo/build/intermediates/exploded-aar/monicaSmithSina/weiboSDK/unspecified/res/drawable-xxhdpi-v4/ic_com_sina_weibo_sdk_login_with_account_text_focused.png"
+    },
+    {
+        "merged": "/home/monica/studio-project/monicaSmithSina/weiboSDKDemo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_com_sina_weibo_sdk_login_button_with_frame_logo_normal.png",
+        "source": "/home/monica/studio-project/monicaSmithSina/weiboSDKDemo/build/intermediates/exploded-aar/monicaSmithSina/weiboSDK/unspecified/res/drawable-xxhdpi-v4/ic_com_sina_weibo_sdk_login_button_with_frame_logo_normal.png"
+    }
+]

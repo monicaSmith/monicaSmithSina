@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="monica.sina.test.demo"
+    android:versionCode="8"
+    android:versionName="3.1.4" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 用于调用 JNI -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/load"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+
+        <!-- 主 Activity -->
+        <activity android:name="monica.sina.test.demo.WBDemoMainActivity" />
+        <activity
+            android:name="monica.sina.test.demo.Load"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 授权认证 -->
+        <activity android:name="monica.sina.test.demo.WBAuthActivity" />
+        <activity android:name="monica.sina.test.demo.WBAuthCodeActivity" />
+        <activity android:name="monica.sina.test.demo.WBShareMainActivity" />
+
+        <!-- 分享 -->
+        <activity
+            android:name="monica.sina.test.demo.WBShareActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="monica.sina.test.demo.WBShareResponseActivity" >
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_RESP_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 社会化组件 -->
+        <activity android:name="monica.sina.test.demo.WBSocialActivity" />
+
+        <!-- 登录/注销 -->
+        <activity android:name="monica.sina.test.demo.WBLoginLogoutActivity" />
+
+        <!-- OpenAPI -->
+        <activity android:name="monica.sina.test.demo.openapi.WBOpenAPIActivity" />
+        <activity android:name="monica.sina.test.demo.openapi.WBUserAPIActivity" />
+        <activity android:name="monica.sina.test.demo.openapi.WBStatusAPIActivity" />
+        <activity android:name="monica.sina.test.demo.openapi.WBCommentAPIActivity" />
+        <activity android:name="monica.sina.test.demo.openapi.WBInviteAPIActivity" />
+        <activity android:name="monica.sina.test.demo.openapi.WBLogoutAPIActivity" />
+
+        <!-- 其他 -->
+        <!-- <activity android:name=".WBCallActivityV3" /> -->
+        <!-- <activity android:name=".WBUserStateActivity" /> -->
+
+
+        <!-- 必须注册在微博授权，分享微博时候用到 -->
+        <activity
+            android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+
+        <!-- 手机短信注册页面 -->
+        <activity
+            android:name="com.sina.weibo.sdk.register.mobile.MobileRegisterActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+
+        <!-- 注册选择国家页面 -->
+        <activity
+            android:name="com.sina.weibo.sdk.register.mobile.SelectCountryActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+
+        <!-- 游戏入口 -->
+        <activity
+            android:name="monica.sina.test.demo.WBGameActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+
+        <!-- 支付入口 -->
+        <activity
+            android:name="com.sina.weibo.sdk.demo.WBPayActivityOld"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+
+        <!-- 统计 -->
+        <activity android:name="monica.sina.test.demo.WBStatisticActivity" />
+        <activity android:name="monica.sina.test.demo.WBPayActivity" >
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_PAY_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="monica.sina.test.demo.WBShareToMessageFriendActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="share"
+                    android:scheme="weiboDemo" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="WEIBO_APPKEY"
+            android:value="2045436852" />
+        <meta-data
+            android:name="WEIBO_CHANNEL"
+            android:value="weibo" />
+
+        <service
+            android:name="com.sina.weibo.sdk.net.DownloadService"
+            android:exported="false" >
+        </service>
+    </application>
+
+</manifest>

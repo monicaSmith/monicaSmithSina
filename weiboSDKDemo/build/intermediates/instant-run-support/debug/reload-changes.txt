@@ -1,0 +1,5 @@
+CHANGED,/home/monica/studio-project/monicaSina/monicaSmithSina/weiboSDKDemo/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/monica/sina/test/demo/WBAuthActivity$override.class
+CHANGED,/home/monica/studio-project/monicaSina/monicaSmithSina/weiboSDKDemo/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/monica/sina/test/demo/WBShareActivity$override.class
+CHANGED,/home/monica/studio-project/monicaSina/monicaSmithSina/weiboSDKDemo/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/monica/sina/test/demo/WBAuthCodeActivity$override.class
+CHANGED,/home/monica/studio-project/monicaSina/monicaSmithSina/weiboSDKDemo/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/monica/sina/test/demo/WBLoginLogoutActivity$override.class
+CHANGED,/home/monica/studio-project/monicaSina/monicaSmithSina/weiboSDKDemo/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
